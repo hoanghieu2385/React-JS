@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import UserList from './component/UserList';
+import ShoppingList from './component/ShoppingList';
 
 function App() {
   return (
@@ -22,4 +24,10 @@ function App() {
   );
 }
 
-export default App;
+export default function MyApp() {
+  return(
+    <div className='App'>
+      <ShoppingList />
+    </div>
+  );
+}
