@@ -53,3 +53,19 @@
   font-style: italic;
   color: orange;
 }
+
+.col-md-3{
+  border: #8d94a1a9 solid;
+  padding: 20px;
+  margin: 20px;
+}
+h5 {
+  background-color: rgb(240, 239, 239);
+  margin: 0;
+  padding: 0;
+}
+button{
+  background-color: #61dcfb;
+  color: blue;
+  padding: 3px 20px;
+}

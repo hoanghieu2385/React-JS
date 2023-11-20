@@ -1,7 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-import UserList from './component/UserList';
-import ShoppingList from './component/ShoppingList';
+import logo from './logo.svg';    //important
+import './App.css';     //important
+import Pricing from './component/Pricing';
 
 function App() {
   return (
@@ -27,7 +26,7 @@ function App() {
 export default function MyApp() {
   return(
     <div className='App'>
-      <ShoppingList />
+      <Pricing />
     </div>
   );
 }
