@@ -37,7 +37,7 @@
   }
 }
 
-/* add them css o ss2 */
+/* style for userlist*/
 .user-name {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: normal;
@@ -54,18 +54,33 @@
   color: orange;
 }
 
-.col-md-3{
-  border: #8d94a1a9 solid;
-  padding: 20px;
-  margin: 20px;
+/* style for Pricing */
+.card {
+  border: none;
+  padding: 10px 50px;
 }
-h5 {
-  background-color: rgb(240, 239, 239);
-  margin: 0;
-  padding: 0;
+
+.card::after {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-button{
-  background-color: #61dcfb;
-  color: blue;
-  padding: 3px 20px;
+
+.card:hover{
+  transform: scale(1.02, 1.02);
+  -webkit-transform: scale(1.02, 1.02);
+  backface-visibility: hidden;
+  will-change: transform;
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover::after{
+  opacity: 1;
+}
+
+.card:hover .btn-outline-primary{
+  color: white;
+  background: #007bff;
 }
