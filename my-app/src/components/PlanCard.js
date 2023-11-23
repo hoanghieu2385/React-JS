@@ -10,7 +10,7 @@ const PlanCard = ({ planName, description, features, price }) => {
                     <br /> <br />
                     <ul className="list-group custom-list">
                         {features.map((feature, index) => (
-                            <li 
+                            <li
                                 key={index}
                                 className={`list-group-item custom-list-item ${feature.disabled ? 'disabled' : ''}`}
                             >
@@ -24,11 +24,15 @@ const PlanCard = ({ planName, description, features, price }) => {
                     <small>{description}</small>
                     <br /> <br />
                 </div>
-                <p className="Card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p className="Card-text">
+                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                </p>
             </div>
 
             <div className="card-body text-center">
-                <button className="btn btn-outline-primary btn-lg" style={{borderRadius: '30px' }}>Seclect</button>
+                <button className="btn btn-outline-primary btn-lg" style={{ borderRadius: '30px' }}>
+                    Seclect
+                </button>
             </div>
         </div>
     );

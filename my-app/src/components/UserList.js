@@ -25,5 +25,5 @@ export default function UserList() {
             <User name={usr.name} pic={usr.pic} />
         ))}
         </div>
-        );
+    );
 }
