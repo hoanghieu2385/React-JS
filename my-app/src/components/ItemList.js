@@ -43,10 +43,14 @@ const items = [
 export default function ItemList() {
     return (
         <div className="container p-5" style={{ background: '#EBC7D1' }}>
-            <div className="row">
+            {/* add mau */}
+            <div className="row"> 
+                {/* them cac thanh phan vao row de item hien hang ngang */}
                 {items.map((item, index) => (
                     <div key={index} className="col-lg-4 col-md-12 mb-4">
+                        {/* chia moi item 4/12 de hien thi 3 item 1 hang */}
                         <Item {...item} />
+                        {/* hien thi cac thanh phan cua item ( name, anh, gia, rating) */}
                     </div>
                 ))}
             </div>
