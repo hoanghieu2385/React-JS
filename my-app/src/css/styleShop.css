@@ -143,6 +143,10 @@ footer{
 }
 
 
+nav .pagination {
+    text-align: center;
+    padding-left: 40%;
+}
 
 a:hover{
     color: red ;
