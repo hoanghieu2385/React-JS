@@ -8,11 +8,12 @@ import ShopList from './WebTuLam/ShopList';
 import ProductList from './components/ProductList';
 
 
-export default function MyApp() {
-  return (
-      <div className="App">
-          <ShopList />
-          {/* <ProductList /> */}
-      </div>
-  );
-}
+// export default function MyApp() {
+//   return (
+//       <div className="App">
+//           <ShopList />
+//           {/* <ProductList /> */}
+//       </div>
+//   );
+// }
+
