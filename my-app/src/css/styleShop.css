@@ -1,0 +1,149 @@
+*{
+    max-width: 1900px;
+}
+
+.product {
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    max-width: 250px;
+}
+
+.sale-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ff5722;
+    color: white;
+    padding: 4px;
+    font-size: 12px;
+}
+
+.product img {
+    width: auto;
+    height: 45%;
+}
+
+.product h3 {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.discount-price {
+    font-weight: bold;
+    color: #ff5722;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #757575;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.rating svg {
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+}
+
+.add-to-cart,
+.view-options {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Responsive Product */
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    flex: 0 0 calc(25% - 32); 
+    /* 32px là tổng margin và padding của sản phẩm */
+    margin: 16px;
+    text-align: center;
+    max-width: 250px;
+}
+
+/* .top {
+    background: #fae7e7;
+    height: 35px;
+    font-size: 20px;
+    min-width: auto;
+    min-width: 1030px;
+
+}
+
+.top-left ul{
+    list-style: none;
+}
+
+.top-left ul li{
+    float: left;
+    margin: 0 13px;
+}
+
+.top-left ul li a{
+    text-decoration: none;
+}
+
+.top-right ul {
+    list-style: none;
+}
+
+.top-right ul li{
+    float: right;
+    margin: 0 13px;
+}
+
+.top-right ul li a{
+    text-decoration: none;
+}
+
+footer{
+    font-size: 20px;
+} */
+
+.pricing-page {
+    margin-top: 20px;
+}
+
+
+.navbar-brand{
+    margin-left: 50px;
+}
+
+.container-fluid {
+    font-size: 20px;
+    margin: 0 50px;
+}
+
+
+
+a:hover{
+    color: red ;
+}
