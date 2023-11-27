@@ -12,7 +12,7 @@ export default function MyApp() {
     return (
         <div className="App">
             {/* <Game /> */}
-            <ShopList />
+            <Game />
         </div>
     );
 }

@@ -1,0 +1,33 @@
+.App {
+    text-align: center;
+    margin-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: #f2f2f2;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+}
+
+#winner {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
