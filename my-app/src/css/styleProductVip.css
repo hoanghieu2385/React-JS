@@ -112,3 +112,8 @@
     margin-top: 20px;
     font-size: 18px;
 }
+
+*{
+    max-width: 1300px;
+    margin-left: 1.5%;
+}

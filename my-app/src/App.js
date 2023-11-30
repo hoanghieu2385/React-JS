@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import React from 'react';
-import './App.css';
+// import './App.css';
 import { FaStar } from 'react-icons/fa';
 import './css/styleProductVip.css';
 // import ShopList from './WebTuLam/ShopList';
