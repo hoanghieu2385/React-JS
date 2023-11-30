@@ -13,7 +13,7 @@ const products = [
         discount: 10,
         image: 'https://picsum.photos/id/1/200/300',
         rating: 3.8,
-        sale: false,
+        sale: true,
     },
     {
         name: 'Product 3',
