@@ -1,16 +1,9 @@
 .card{
-    float: left;
+    margin: 10px;
 }
 
-.row{
-    text-align: center;
-}
+
 
 .col-4{
     margin: 1px solid #a9a9a9;
-}
-
-.img{
-    width: 20px;
-    height: 50px;
 }
